@@ -22,7 +22,7 @@ var isValid = function(s) {
             }
         }
     
-        return stack.length === 0; // valid if all brackets are closed properly
+        return stack.length === 0;
     }
     
     // Example usage:
